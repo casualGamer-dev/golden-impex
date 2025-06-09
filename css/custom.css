@@ -1,0 +1,17 @@
+body {
+	background-image: url('https://bglabs.evade.netdna-cdn.com/files/seamless-pattern-of-circuit-board-2370.png');
+	width: 100%;
+   	position: absolute;
+   	z-index: -1;
+   	height: 100%;
+
+   	/* If it's a large image and no repeat is neeed uncomment the line below */
+   	/* background-repeat: no-repeat;  */
+}img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(2.75); /* or some other value */
+    transform:scale(2.75);
+}

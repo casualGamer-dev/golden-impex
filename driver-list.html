@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>golden-impex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Modern Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+      body {
+        background-color: #0a192f;
+        color: #ffffff;
+        font-family: 'Segoe UI', sans-serif;
+      }
+
+      .navbar, .footer {
+        background-color: #071421;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .navbar .nav-link,
+      .navbar-brand {
+        color: #d9853b !important;
+        font-weight: 500;
+      }
+
+      .navbar .nav-link:hover,
+      .navbar-brand:hover {
+        color: #fff !important;
+      }
+
+      .btn-copper {
+        background: linear-gradient(145deg, #d9853b, #b06c29);
+        color: #fff;
+        border: none;
+        padding: 12px 30px;
+        font-weight: 600;
+        border-radius: 30px;
+        transition: all 0.3s ease;
+      }
+
+      .btn-copper:hover {
+        background: #e09b52;
+        transform: scale(1.05);
+      }
+
+      .thumbnail img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        transition: all 0.3s ease;
+      }
+
+      .thumbnail {
+        background-color: #112240;
+        padding: 20px;
+        border-radius: 16px;
+        border: 1px solid #1e2b3a;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .thumbnail:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(217, 133, 59, 0.2);
+      }
+
+      .caption h4 {
+        color: #d9853b;
+        font-weight: 600;
+      }
+
+      .caption p {
+        color: #cbd5e1;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 30px 0;
+        font-size: 0.9rem;
+        color: #94a3b8;
+        border-top: 1px solid #1e2b3a;
+      }
+
+      .banner {
+        background: url('./banner.jpg') no-repeat center center;
+        background-size: cover;
+        height: 400px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+      }
+
+      .banner-overlay {
+        
+        padding: 40px;
+        border-radius: 12px;
+      }
+
+      .banner h1 {
+        font-size: 3rem;
+        font-weight: 700;
+      }
+
+      .banner p {
+        font-size: 1.25rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">Dynamic <span style="color:white">Safety</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Products</a>
+              <ul class="dropdown-menu bg-dark border-0">
+                <li><a class="dropdown-item text-warning" href="driver-list.html">Driver Gloves</a></li>
+                <li><a class="dropdown-item text-warning" href="canadian-list.html">Canadian Gloves</a></li>
+                <li><a class="dropdown-item text-warning" href="welding-list.html">Welding Gloves</a></li>
+                <li><a class="dropdown-item text-warning" href="weldinggar-list.html">Welding Garments</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="banner">
+      <div class="banner-overlay">
+        <h1>Excellence in Safety</h1>
+        <p>Top-grade leather protection for every profession.</p>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Driver Gloves Collection</h2>
+        <p class="lead">Durable. Comfortable. Reliable.</p>
+      </div>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+        <div class="col"><div class="thumbnail"><img src="./img/DSC0114.jpg" alt="DS/D1"><div class="caption mt-3"><h4>Art No. DS/D1</h4><p>Beige Cow Grain Leather Driver Gloves, straight thumb. Size S – XL.</p></div></div></div>
+        <div class="col"><div class="thumbnail"><img src="./img/DSC9892.jpg" alt="DS/D2"><div class="caption mt-3"><h4>Art No. DS/D2</h4><p>Beige Cow Grain Leather Driver Gloves, keystone thumb. Size S – XL.</p></div></div></div>
+        <div class="col"><div class="thumbnail"><img src="./img/DSC9893.jpg" alt="DS/D3"><div class="caption mt-3"><h4>Art No. DS/D3</h4><p>Beige Cow Grain Leather Driver Gloves, keystone thumb with reflective on finger tips. Size S – XL.</p></div></div></div>
+        <div class="col"><div class="thumbnail"><img src="./img/DSC9913.jpg" alt="DS/D4"><div class="caption mt-3"><h4>Art No. DS/D4</h4><p>White Goat Grain Leather Lined Driver Gloves, Size S – XL.</p></div></div></div>
+        <div class="col"><div class="thumbnail"><img src="./img/DSC9940.jpg" alt="DS/D5"><div class="caption mt-3"><h4>Art No. DS/D5</h4><p>White Cow Grain Leather Driver Gloves, keystone thumb. Size S – XL.</p></div></div></div>
+        <div class="col"><div class="thumbnail"><img src="./img/DSC9969.jpg" alt="DS/D6"><div class="caption mt-3"><h4>Art No. DS/D6</h4><p>Yellow Cow Grain Leather Driver Gloves, keystone thumb. Size S – XL.</p></div></div></div>
+        <div class="col"><div class="thumbnail"><img src="./img/DSC9973.jpg" alt="DS/D7"><div class="caption mt-3"><h4>Art No. DS/D7</h4><p>Yellow Goat Grain Split Leather Driver Gloves, reinforced palm with Velcro. Size 10.</p></div></div></div>
+        <div class="col"><div class="thumbnail"><img src="./img/DSC9989.jpg" alt="DS/D8"><div class="caption mt-3"><h4>Art No. DS/D8</h4><p>White Goat Grain Leather Driver Gloves. Size 10.</p></div></div></div>
+        <div class="col"><div class="thumbnail"><img src="./img/DSC9996.jpg" alt="DS/D9"><div class="caption mt-3"><h4>Art No. DS/D9</h4><p>Split Leather Driver Gloves, keystone thumb. Size S – XL.</p></div></div></div>
+        <div class="col"><div class="thumbnail"><img src="./img/DSC9997.jpg" alt="DS/D10"><div class="caption mt-3"><h4>Art No. DS/D10</h4><p>White Cow Grain Leather Driver Gloves with Split Leather reinforced palm. Size 10.</p></div></div></div>
+     
+      </div>
+    </div>
+
+    <div class="footer mt-5">
+      <p>&copy; 2025 golden-impex. All rights reserved.</p>
+    </div>
+  </body>
+</html>
